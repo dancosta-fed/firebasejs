@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #51575B;
+}
+
+/* Nav Style */
+
+.main-nav {
+	width: 100%;
+	min-height: 30px;
+	padding: 10px;
+	position: fixed;
+	text-align: center;
+	display: flex;
+  }
+
+  .nav {
+	position: center;
+	color: #51575B;
+	justify-content: space-around;
+	font-weight: 700;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+	display: flex;
+  }
+  
+  .nav .name {
+	  position: left;
+	  display: block;
+	  margin-right: auto;
+	  color:#51575B;
+  }
+  .nav li {
+	padding: 5px 10px 10px 10px;
+  }
+  .nav a {
+	transition: all .5s;
+  }
+  .nav a:hover {
+	color: #91D7F2;
+  }
+  
+  .social {
+	  position: right;
+
+}
+  .download-button {
+	position: right;
+	right: -40%;
+	justify-content: center; align-items: center;
+	overflow: hidden;
+	width: 105px; height: 30px;
+	background-color: #3dafbe;
+	border-radius: 6px;
+	box-shadow: #51575B;
+  }
+
+   span {
+	font-family: 'Roboto', sans-serif;
+	position: center; 
+	width: 85%; height: 85%;
+	text-align: center;
+	line-height: 70px;
+	letter-spacing: 2px;
+	color: #ffffff;
+	padding: 0 18px;
+  }
+
+  .dbutton {
+	flex: auto;
+ }
+/* End of Nav Style */
