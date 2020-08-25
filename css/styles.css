@@ -18,13 +18,27 @@ body {
 	position: fixed;
 	text-align: center;
 	display: flex;
+	font-weight: normal;
+	
+  }
+
+  .socialnbutton {
+	display: flex;
+  }
+
+  a {
+	text-decoration: none;
+	color: #51575B; 
+  }
+  a:hover {
+	color: #8a9195;
+	transform: scale(.9)
   }
 
   .nav {
 	position: center;
 	color: #51575B;
 	justify-content: space-around;
-	font-weight: 700;
 	list-style-type: none;
 	margin: 0 auto;
 	padding: 0;
@@ -35,45 +49,52 @@ body {
 	  position: left;
 	  display: block;
 	  margin-right: auto;
+	  margin-left: 30%;
 	  color:#51575B;
   }
   .nav li {
 	padding: 5px 10px 10px 10px;
+	display: inline-block;
   }
-  .nav a {
-	transition: all .5s;
-  }
-  .nav a:hover {
-	color: #91D7F2;
-  }
-  
-  .social {
-	  position: right;
 
+  ul .socials {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+	justify-content: center;
 }
+  li {
+    display: inline-block;
+}
+
   .download-button {
-	position: right;
-	right: -40%;
-	justify-content: center; align-items: center;
 	overflow: hidden;
-	width: 105px; height: 30px;
+	width: 88px; height: 20px;
 	background-color: #3dafbe;
-	border-radius: 6px;
+	border-radius: 4px;
 	box-shadow: #51575B;
+	align-self: space-between;
   }
 
    span {
-	font-family: 'Roboto', sans-serif;
-	position: center; 
-	width: 85%; height: 85%;
+	font-size: 85%;
 	text-align: center;
-	line-height: 70px;
-	letter-spacing: 2px;
 	color: #ffffff;
-	padding: 0 18px;
-  }
+	display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+	font-family: sans-serif;
+}
 
-  .dbutton {
-	flex: auto;
- }
+
+.fab fa-twitter {
+	
+
+}
+
+.fab fa-github {
+	
+}
+
 /* End of Nav Style */
