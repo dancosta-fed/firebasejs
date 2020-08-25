@@ -75,6 +75,12 @@ body {
 	border-radius: 4px;
 	box-shadow: #51575B;
 	align-self: space-between;
+	transition-duration: 0.4s;
+  }
+
+  .download-button:hover {
+	  background-color: #21828F;
+	  color: #ffffff
   }
 
    span {
