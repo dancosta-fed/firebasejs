@@ -59,7 +59,7 @@ body {
   }
 
   .header-section {
-	border: 1px solid red;
+	
   }
 
   ul .socials {
@@ -77,13 +77,13 @@ body {
 }
 
   .download-button {
-	display: block;
-	padding: 2px;
+	display: inline-block;
+	padding: .3% .3%;
+	box-shadow: 4px 4px #51575B;
 	background-color: #3dafbe;
-	border-radius: 4px;
-	box-shadow: #51575B;
+	border-radius: 3px;
 	transition-duration: 0.4s;
-	float: right;
+	
   }
 
   .download-button:hover {
@@ -95,9 +95,8 @@ body {
 	font-size: 85%;
 	text-align: center;
 	color: #ffffff;
-	display: inline-block;
+	display: inline-flex;
     width: 100%;
-    white-space: nowrap;
 	font-family: sans-serif;
 	
 }
